@@ -28,7 +28,7 @@ export default function SubFooter() {
               className="w-7 rotate-180 transform fill-current"
               fillRule="evenodd"
               strokeLinejoin="round"
-              strokeLiterlimit="2"
+              strokeliterlimit="2"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >

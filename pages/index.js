@@ -17,7 +17,7 @@ export default function Home() {
               className="absolute min-h-full min-w-full object-cover"
               src="https://res.cloudinary.com/damms5yog/video/upload/v1668779053/signaturerealty/pexels-kindel-media-7578552_oebce0.mp4"
               type="video/mp4"
-              autoplay
+              autoPlay
               muted
               loop
             ></video>
