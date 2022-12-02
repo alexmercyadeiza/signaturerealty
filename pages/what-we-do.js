@@ -60,7 +60,7 @@ export default function WhatWeDo() {
                 <div className="h-0 w-full border-b border-s-blue"></div>
               </div>
               <div className="flex items-center">
-                <div className="grid h-12 w-14 place-items-center place-self-start rounded-full bg-s-orange text-white">
+                <div className="grid h-12 w-14 place-items-center place-self-start rounded-full bg-s-blue text-white">
                   2
                 </div>
                 <div className="h-0 w-full border-b border-s-orange"></div>
@@ -93,7 +93,7 @@ export default function WhatWeDo() {
 
               <div
                 onClick={() => toggleArch()}
-                className="flex h-[24rem] cursor-pointer hover:opacity-90 flex-col justify-between border-b-4 border-s-blue bg-s-orange"
+                className="flex h-[24rem] cursor-pointer hover:opacity-90 flex-col justify-between border-b-4 border-s-orange bg-s-blue"
               >
                 <div className="grid p-12">
                   <div className="space-y-6">

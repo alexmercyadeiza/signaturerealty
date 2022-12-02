@@ -84,7 +84,7 @@ export default function Project() {
             <div className="m-12 flex grid-cols-2 justify-between">
               <div
                 onClick={() => router.push("/projects")}
-                className="h-24 w-24 cursor-pointer rounded-full bg-s-orange hover:bg-s-blue"
+                className="h-24 w-24 cursor-pointer rounded-full bg-s-blue hover:bg-s-blue"
               >
                 <svg
                   clipRule="evenodd"
@@ -115,7 +115,7 @@ export default function Project() {
           </div>
         </div>
 
-        <div className="grid grid-cols-5 bg-s-orange p-12 text-white">
+        <div className="grid grid-cols-5 bg-s-blue p-12 text-white">
           <div className="self-center col-span-2 font-display text-5xl capitalize">
             {router?.query?.title}
           </div>
@@ -144,7 +144,7 @@ export default function Project() {
       {/** SUB */}
       <div className="pt-24 space-y-24">
         <div className="grid grid-cols-3 gap-16 px-12">
-          <div className="space-y-9 border-l border-s-orange bg-s-orange bg-opacity-5 p-12 font-tall-2 text-lg">
+          <div className="space-y-9 border-l border-s-orange bg-s-blue bg-opacity-5 p-12 font-tall-2 text-lg">
             <div className="font-display text-2xl">{router?.query?.quote}</div>
             <div className="text-sm">
               <div>Signature Realty</div>

@@ -42,7 +42,7 @@ export default function About() {
               <div className="h-1/3 bg-[url('https://res.cloudinary.com/damms5yog/image/upload/v1668772445/signaturerealty/quality_ojnvmz.jpg')] bg-cover bg-center"></div>
             </div>
 
-            <div className="flex h-[20rem] flex-col justify-between bg-s-orange">
+            <div className="flex h-[20rem] flex-col justify-between bg-s-blue">
               <div className="grid p-12">
                 <div className="space-y-6">
                   <div className="font-display text-2xl">Value</div>
@@ -55,7 +55,7 @@ export default function About() {
               <div className="h-1/2 bg-[url('https://res.cloudinary.com/damms5yog/image/upload/v1668772465/signaturerealty/value_chmsnf.jpg')] bg-cover bg-center"></div>
             </div>
 
-            <div className="flex h-[20rem] flex-col justify-between bg-s-orange">
+            <div className="flex h-[20rem] flex-col justify-between bg-s-blue">
               <div className="grid p-12">
                 <div className="space-y-6">
                   <div className="font-display text-2xl">Unique</div>
@@ -86,7 +86,7 @@ export default function About() {
 
       <div className="mb-16 grid md:mb-36">
         <div className="grid pb-14 md:grid-cols-3">
-          <div className="bg-s-orange p-16">
+          <div className="bg-s-blue p-16">
             <div className="font-display text-4xl text-white">
               We do more than build <span className="italic">luxury </span>{" "}
               homes.
