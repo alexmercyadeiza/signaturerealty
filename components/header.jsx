@@ -72,7 +72,10 @@ export default function Header() {
           </div>
         </div>
         <div className="mx-12 flex items-center justify-between border-b border-gray-500 py-8">
-          <div className="hover:cursor-pointer" onClick={() => router.push('/')}>
+          <div
+            className="hover:cursor-pointer"
+            onClick={() => router.push("/")}
+          >
             <img
               src="https://res.cloudinary.com/damms5yog/image/upload/v1668772172/signaturerealty/SIGNATURE_2_awetyq.png"
               className="w-48"
@@ -81,7 +84,16 @@ export default function Header() {
           </div>
 
           <div className="hidden space-x-11 font-tall-2 text-sm uppercase tracking-widest text-white md:flex">
-            <div className={router.pathname == "services" ? active : inactive}>
+            <div
+              onClick={() => router.push("/")}
+              className={router.pathname == "/" ? active : inactive}
+            >
+              home
+            </div>
+            <div
+              onClick={() => router.push("/what-we-do")}
+              className={router.pathname == "/what-we-do" ? active : inactive}
+            >
               what we do
             </div>
             <div
@@ -90,10 +102,16 @@ export default function Header() {
             >
               the company
             </div>
-            <div className={router.pathname == "/projects" ? active : inactive}>
+            <div
+              onClick={() => router.push("/projects")}
+              className={router.pathname == "/projects" ? active : inactive}
+            >
               projects
             </div>
-            <div className={router.pathname == "/contact-us" ? active : inactive}>
+            <div
+              onClick={() => router.push("/contact")}
+              className={router.pathname == "/contact" ? active : inactive}
+            >
               contact
             </div>
           </div>
