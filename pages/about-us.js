@@ -12,7 +12,7 @@ export default function About() {
       <div className="relative h-1/2 bg-s-blue bg-cover bg-center bg-no-repeat px-12 py-20 text-white bg-blend-overlay">
         <div className="relative z-30 space-y-11 font-display text-4xl md:text-6xl">
           <div>
-            A proven years of <span className="italic">dedication.</span>
+            A proven years of <span className="italic text-s-orange">dedication.</span>
           </div>
         </div>
       </div>
