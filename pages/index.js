@@ -11,7 +11,7 @@ export default function Home() {
       <Layout>
         <Header />
 
-        <div className="relative h-screen bg-gray-600 bg-[url('https://res.cloudinary.com/damms5yog/image/upload/v1668772391/signaturerealty/lowerbd_elv1kb.jpg')] bg-cover bg-center bg-no-repeat md:px-40 px-12 py-20 text-white bg-blend-overlay">
+        <div className="relative h-screen bg-s-blue bg-cover bg-center bg-no-repeat md:px-40 px-12 py-20 text-white bg-blend-overlay">
           <div className="absolute top-0 left-0 z-10 h-full w-full overflow-hidden">
             <video
               className="absolute min-h-full min-w-full object-cover"
@@ -38,13 +38,13 @@ export default function Home() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="h-6 w-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                 />
               </svg>
